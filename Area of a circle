@@ -1,0 +1,13 @@
+//compute the area of a circle
+import java.io.*;
+import java.util.Scanner;
+public class Area{
+    public static void main(String args[]) {
+        double pi, r, a;
+        Scanner n= new Scanner(System.in);
+        r=n.nextDouble();
+        pi=3.1416;
+        a=pi*r*r; //compute area
+        System.out.println("Area of circle is "+ a);
+    }
+}
